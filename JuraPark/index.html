@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Jura park</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: #EAF5FB;
+        }
+    </style>
+    
+    <nav class="navbar">
+        <div class="logo"><h1>Jura Park</h1></div>
+        <ul class="menu">
+            <li><a href="" class="active">Inicio</a></li>
+            <li><a href="">Novos Dinossauros</a></li>
+            <li><a href="">BIBU</a></li>
+            <li><a href="">Conta</a></li>
+            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+<!-- for responsive button -->
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="content">
+        <h1>Seu amigo de meia tonelada</h1>
+        <P>Dinossauros com preço acessivel</P>
+        <button>Comprar</button>
+    </section>
+
+    <h1 class="pheading">Nossos produtos mais comprados</h1>
+
+    <section class="sec">
+        <div class="products">
+
+    <!-- card  começar-->
+            <div class="card">
+                <div class="img"><img src="1.png.jpg" alt=""></div>
+                <div class="desc">Miudosnadegais</div>
+                <div class="title">Miudossauro</div>
+                <div class="box">
+                    <div class="price">R$2.000,00</div>
+                    <button class="btn">Comprar</button>
+                </div>
+            </div>
+    <!-- card  final-->
+
+     <!-- card  começar-->
+     <div class="card">
+        <div class="img"><img src="2.png.jpg" alt=""></div>
+        <div class="desc">Debochaence</div>
+        <div class="title">Astoufo</div>
+        <div class="box">
+            <div class="price">R$3,02</div>
+            <button class="btn">Comprar</button>
+        </div>
+    </div>
+<!-- card  final-->
+
+ <!-- card  começar-->
+ <div class="card">
+    <div class="img"><img src="3.png.jpg" alt=""></div>
+    <div class="desc">Acrence</div>
+    <div class="title">Cagaossauro</div>
+    <div class="box">
+        <div class="price">R$-32,00</div>
+        <button class="btn">Comprar</button>
+    </div>
+</div>
+<!-- card  final-->
+
+ <!-- card  começar-->
+ <div class="card">
+    <div class="img"><img src="4.png.jpg" alt=""></div>
+    <div class="desc">Cagaence</div>
+    <div class="title">Defecossauro</div>
+    <div class="box">
+        <div class="price">R$200,00</div>
+        <button class="btn">Comprar</button>
+    </div>
+</div>
+<!-- card  final-->
+
+    <!-- card  começar-->
+    <div class="card">
+        <div class="img"><img src="5.png.jpg" alt=""></div>
+        <div class="desc">Catnipence</div>
+        <div class="title">Gatossauro</div>
+        <div class="box">
+            <div class="price">R$15.500,00</div>
+            <button class="btn">Comprar</button>
+        </div>
+    </div>
+<!-- card  final-->
+
+<!-- card  começar-->
+<div class="card">
+<div class="img"><img src="6.png.jpg" alt=""></div>
+<div class="desc">Geladeirence</div>
+<div class="title">Assaltante de Geladeira</div>
+<div class="box">
+    <div class="price">R$10,00</div>
+    <button class="btn">BIBU</button>
+</div>
+</div>
+<!-- card  final-->
+
+<!-- card  começar-->
+<div class="card">
+<div class="img"><img src="7.png" alt=""></div>
+<div class="desc">Riodejaneirence</div>
+<div class="title">Cariocassauro</div>
+<div class="box">
+<div class="price">R$500,00</div>
+<button class="btn">Roubar</button>
+</div>
+</div>
+<!-- card  final-->
+
+<!-- card  começar-->
+<div class="card">
+<div class="img"><img src="8.png" alt=""></div>
+<div class="desc">Sennomence</div>
+<div class="title">Sem Nomossauro</div>
+<div class="box">
+<div class="price">R$99,99</div>
+<button class="btn">Abraçar</button>
+</div>
+</div>
+<!-- card  final-->
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Direitos autorais de <a href="">Charlie Velociraptor</a></p>
+    </footer>
+
+    <!-- jquery -->
+     <script>
+        $(".menu-btn").click(function (){
+            $(".navbar .menu").toggleClass("active");
+            $(".menu-btn i").toggleClass("active");
+        });
+     </script>
+
+</body>
+</html>
